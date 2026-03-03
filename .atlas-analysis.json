@@ -1,0 +1,53 @@
+{
+  "projectType": "saas",
+  "projectName": "Star Wars Crawl Creator",
+  "projectDescription": "A web-based tool for creating custom Star Wars-style opening crawl videos with personalized text and various resolution options.",
+  "theme": "aspen",
+  "primaryColor": "#FFE81F",
+  "lightColor": "#FFF44F",
+  "darkColor": "#000000",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/customizing-your-crawl",
+          "guides/resolution-options",
+          "guides/tips-and-tricks"
+        ]
+      },
+      {
+        "group": "Resources",
+        "pages": [
+          "faq",
+          "examples",
+          "troubleshooting"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Custom Star Wars-style opening crawl video generation",
+    "Multiple resolution options (SD, HD, 4K)",
+    "Email delivery of generated videos",
+    "Fully customizable text fields including title, episode, and crawl content",
+    "Professional Star Wars aesthetic with authentic styling"
+  ],
+  "publicApiSurface": [
+    "Web form with Start Text field",
+    "Web form with Title Row 1 field",
+    "Web form with Title Row 2 field",
+    "Web form with Episode Title field",
+    "Web form with Crawl Heading field",
+    "Web form with Crawl Text field",
+    "Web form with Email Address field",
+    "Web form with Resolution selector (SD, HD, 4K)"
+  ]
+}
